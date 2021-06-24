@@ -107,4 +107,24 @@ U 60D76393
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
+$Comp
+L dk_Embedded-Microcontrollers:ATMEGA328-AU U?
+U 1 1 60D7A831
+P 1950 3225
+F 0 "U?" H 2278 2428 60  0000 L CNN
+F 1 "ATMEGA328-AU" H 2278 2322 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 2150 3425 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 2150 3525 60  0001 L CNN
+F 4 "ATMEGA328-AU-ND" H 2150 3625 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328-AU" H 2150 3725 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2150 3825 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 2150 3925 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 2150 4025 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328-AU/ATMEGA328-AU-ND/2271029" H 2150 4125 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 2150 4225 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 2150 4325 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2150 4425 60  0001 L CNN "Status"
+	1    1950 3225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
