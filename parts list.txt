@@ -1,0 +1,12 @@
+Battery (multiple cells)
+Polarised capacitor
+Two non-ploarized Capacitors
+LED general
+Generic connector, single row, 01x09
+Generic connector, single row, 01x04
+Generic connector, double row, 02x03
+Generic connector, single row, 01x04
+Two resistors
+I2C Serial EEPROM 1024KB, DIP-8/SOIC-8/TSSOP-8/DFN-8 (24LC1025)
+IC MCU 8BIT 32KB FLASH 32TQFP (ATMega328-AU)
+Clock/timer IC
