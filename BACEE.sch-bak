@@ -4,7 +4,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
-Title "Battery Powered Aduino Clone with Clock & Extended EEPROM"
+Title "Battery Powered Arduino Clone with Clock & Extended EEPROM"
 Date "2021-06-24"
 Rev "1"
 Comp "Lutzcraft"
@@ -82,12 +82,12 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 60D731B1
-P 4975 4200
-F 0 "R1" H 5045 4246 50  0000 L CNN
-F 1 "330 Ω" H 5045 4155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4905 4200 50  0001 C CNN
-F 3 "~" H 4975 4200 50  0001 C CNN
-	1    4975 4200
+P 4650 4225
+F 0 "R1" H 4720 4271 50  0000 L CNN
+F 1 "330 Ω" H 4720 4180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4580 4225 50  0001 C CNN
+F 3 "~" H 4650 4225 50  0001 C CNN
+	1    4650 4225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -102,10 +102,27 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 2200 5475 50 
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4450 6200 1575 1650
+S 3650 5850 1575 1650
 U 60D76393
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
+F2 "MISO" O L 3650 5975 50 
+F3 "RESET" O L 3650 6350 50 
+F4 "Vcc" I L 3650 7275 50 
+F5 "MOSI" I L 3650 6100 50 
+F6 "GND" I L 3650 7400 50 
+F7 "RX" I L 3650 6475 50 
+F8 "TX" O L 3650 6600 50 
+F9 "SDA" B R 5225 5975 50 
+F10 "D2" B R 5225 6375 50 
+F11 "D3" B R 5225 6500 50 
+F12 "D4" B R 5225 6625 50 
+F13 "D5" B R 5225 6750 50 
+F14 "D6" B R 5225 6875 50 
+F15 "D7" B R 5225 7000 50 
+F16 "D8" B R 5225 7125 50 
+F17 "SCK" B R 5225 6100 50 
+F18 "SCK" B L 3650 6225 50 
 $EndSheet
 $Comp
 L dk_Embedded-Microcontrollers:ATMEGA328-AU U3
@@ -182,4 +199,144 @@ F 3 "" H 9650 2775 50  0001 C CNN
 	1    9650 2775
 	1    0    0    -1  
 $EndComp
+Text Label 3300 5975 2    50   ~ 0
+MISO
+Text Label 5525 3450 2    50   ~ 0
+MISO
+Text Label 3300 6225 2    50   ~ 0
+SCK
+Text Label 3300 6350 2    50   ~ 0
+RESET
+Text Label 3300 7275 2    50   ~ 0
+Vcc
+Text Label 3300 6100 2    50   ~ 0
+MOSI
+Text Label 3325 7400 2    50   ~ 0
+GND
+Text Label 5525 3350 2    50   ~ 0
+MOSI
+Text Label 5525 3550 2    50   ~ 0
+SCK_ICSP
+Text Label 5525 4250 2    50   ~ 0
+RESET
+Wire Wire Line
+	6025 2150 6025 2000
+Wire Wire Line
+	6025 2000 6125 2000
+Wire Wire Line
+	6225 2000 6225 2150
+Wire Wire Line
+	6125 2150 6125 2000
+Connection ~ 6125 2000
+Wire Wire Line
+	6125 2000 6225 2000
+Text Label 6125 1825 2    50   ~ 0
+Vcc
+Wire Wire Line
+	6125 1825 6125 2000
+Wire Wire Line
+	6025 5050 6025 5200
+Wire Wire Line
+	6025 5200 6125 5200
+Wire Wire Line
+	6225 5200 6225 5050
+Wire Wire Line
+	6125 5050 6125 5200
+Connection ~ 6125 5200
+Wire Wire Line
+	6125 5200 6225 5200
+Text Label 6125 5400 2    50   ~ 0
+GND
+Wire Wire Line
+	6125 5200 6125 5400
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 60D82DF9
+P 3450 7400
+F 0 "#PWR?" H 3450 7200 50  0001 C CNN
+F 1 "GNDPWR" H 3454 7246 50  0000 C CNN
+F 2 "" H 3450 7350 50  0001 C CNN
+F 3 "" H 3450 7350 50  0001 C CNN
+	1    3450 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5975 3650 5975
+Wire Wire Line
+	3300 6225 3650 6225
+Wire Wire Line
+	3300 6350 3650 6350
+Wire Wire Line
+	3300 7275 3650 7275
+Wire Wire Line
+	3325 7400 3450 7400
+Connection ~ 3450 7400
+Wire Wire Line
+	3450 7400 3675 7400
+Text Label 5550 5975 0    50   ~ 0
+SDA
+Text Label 5550 6100 0    50   ~ 0
+SCK
+Text Label 5550 6375 0    50   ~ 0
+D2
+Text Label 5550 6500 0    50   ~ 0
+D3
+Text Label 5550 6625 0    50   ~ 0
+D4
+Text Label 5550 6750 0    50   ~ 0
+D5
+Text Label 5550 6875 0    50   ~ 0
+D6
+Text Label 5550 7000 0    50   ~ 0
+D7
+Text Label 5550 7125 0    50   ~ 0
+D8
+Wire Wire Line
+	5225 5975 5550 5975
+Wire Wire Line
+	5225 6100 5550 6100
+Wire Wire Line
+	5225 6375 5550 6375
+Wire Wire Line
+	5225 6500 5550 6500
+Wire Wire Line
+	5225 6625 5550 6625
+Wire Wire Line
+	5225 6750 5550 6750
+Wire Wire Line
+	5225 6875 5550 6875
+Wire Wire Line
+	5225 7000 5550 7000
+Wire Wire Line
+	5225 7125 5550 7125
+Wire Wire Line
+	3300 6100 3650 6100
+Text Label 3300 6475 2    50   ~ 0
+RX
+Text Label 3300 6600 2    50   ~ 0
+TX
+Wire Wire Line
+	3300 6475 3650 6475
+Wire Wire Line
+	3300 6600 3650 6600
+Text Label 5525 2350 2    50   ~ 0
+D3
+Text Label 5525 2450 2    50   ~ 0
+D4
+Text Label 5525 2750 2    50   ~ 0
+D5
+Text Label 5525 2850 2    50   ~ 0
+D6
+Text Label 5525 2950 2    50   ~ 0
+D7
+Text Label 5525 3075 2    50   ~ 0
+D8
+Text Label 5525 4050 2    50   ~ 0
+SDA
+Text Label 5525 4350 2    50   ~ 0
+RX
+Text Label 5525 4450 2    50   ~ 0
+TX
+Text Label 5525 4550 2    50   ~ 0
+D2
 $EndSCHEMATC

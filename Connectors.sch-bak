@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title "Battery Powered Aduino Clone with Clock & Extended EEPROM"
+Title "Battery Powered Arduino Clone with Clock & Extended EEPROM"
 Date "2021-06-24"
 Rev "1"
 Comp "Lutzcraft"
@@ -57,4 +57,50 @@ F 3 "~" H 6650 4625 50  0001 C CNN
 	1    6650 4625
 	1    0    0    -1  
 $EndComp
+Text HLabel 6450 4525 0    50   Output ~ 0
+MISO
+Text HLabel 6450 4625 0    50   BiDi ~ 0
+SCK
+Text HLabel 6450 4725 0    50   Output ~ 0
+RESET
+Text HLabel 6950 4525 2    50   Input ~ 0
+Vcc
+Text HLabel 6950 4625 2    50   Input ~ 0
+MOSI
+Text HLabel 6950 4725 2    50   Input ~ 0
+GND
+Text HLabel 4750 2700 0    50   Input ~ 0
+GND
+Text HLabel 4750 2800 0    50   Input ~ 0
+Vcc
+Text HLabel 4750 2900 0    50   Input ~ 0
+RX
+Text HLabel 4750 3000 0    50   Output ~ 0
+TX
+Text HLabel 6375 2650 0    50   Input ~ 0
+GND
+Text HLabel 6375 2750 0    50   Input ~ 0
+Vcc
+Text HLabel 6400 2850 0    50   BiDi ~ 0
+SDA
+Text HLabel 6400 2950 0    50   BiDi ~ 0
+SCK
+Text HLabel 4800 4050 0    50   BiDi ~ 0
+D2
+Text HLabel 4800 4150 0    50   BiDi ~ 0
+D3
+Text HLabel 4800 4250 0    50   BiDi ~ 0
+D4
+Text HLabel 4800 4350 0    50   BiDi ~ 0
+D5
+Text HLabel 4800 4450 0    50   BiDi ~ 0
+D6
+Text HLabel 4800 4550 0    50   BiDi ~ 0
+D7
+Text HLabel 4800 4650 0    50   BiDi ~ 0
+D8
+Text HLabel 4800 4750 0    50   Input ~ 0
+GND
+Text HLabel 4800 4850 0    50   Input ~ 0
+Vcc
 $EndSCHEMATC

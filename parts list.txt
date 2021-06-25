@@ -10,5 +10,5 @@ Two resistors
 I2C Serial EEPROM 1024KB, DIP-8/SOIC-8/TSSOP-8/DFN-8 (24LC1025)
 IC MCU 8BIT 32KB FLASH 32TQFP (ATMega328-AU)
 Clock/timer IC (D1337S)
-36 MHz crystal for D1337S
+36 KHz crystal for D1337S
 60 MHz crystal for ATMega328p
