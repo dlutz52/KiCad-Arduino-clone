@@ -798,7 +798,7 @@
   )
 
   (module digikey-footprints:TQFP-32_7x7mm (layer F.Cu) (tedit 5D28AA5E) (tstamp 60D635D4)
-    (at 80.137 109.728)
+    (at 79.597 109.737)
     (descr http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf)
     (path /60D7A831)
     (attr smd)

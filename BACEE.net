@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/media/dlutz/Work/kicad/txplore/dtl/Project 3 - Arduino Clone/BACEE/BACEE.sch")
-    (date "Fri 25 Jun 2021 11:12:31 PDT")
+    (date "Fri 25 Jun 2021 13:55:41 PDT")
     (tool "Eeschema 5.1.10-88a1d61d58~88~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -93,7 +93,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60D7A831))
     (comp (ref Y1)
-      (value "Crystal 32MHz")
+      (value "Crystal 32KHz")
       (footprint Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering)
       (datasheet ~)
       (libsource (lib Device) (part Crystal) (description "Two pin crystal"))
