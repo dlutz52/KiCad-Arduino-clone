@@ -19,7 +19,7 @@ U 1 1 60D7775B
 P 4625 4200
 F 0 "J2" H 4705 4242 50  0000 L CNN
 F 1 "Digital pins" H 4705 4151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4625 4200 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 4625 4200 50  0001 C CNN
 F 3 "~" H 4625 4200 50  0001 C CNN
 	1    4625 4200
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 60D7857C
 P 4675 2225
 F 0 "J1" H 4755 2217 50  0000 L CNN
 F 1 "Serial Port" H 4755 2126 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4675 2225 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4675 2225 50  0001 C CNN
 F 3 "~" H 4675 2225 50  0001 C CNN
 	1    4675 2225
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 60D78A32
 P 6850 2250
 F 0 "J3" H 6930 2242 50  0000 L CNN
 F 1 "I2C" H 6930 2151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6850 2250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6850 2250 50  0001 C CNN
 F 3 "~" H 6850 2250 50  0001 C CNN
 	1    6850 2250
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 60D796C8
 P 6825 4450
 F 0 "J4" H 6875 4767 50  0000 C CNN
 F 1 "ISCP" H 6875 4676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6825 4450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 6825 4450 50  0001 C CNN
 F 3 "~" H 6825 4450 50  0001 C CNN
 	1    6825 4450
 	1    0    0    -1  

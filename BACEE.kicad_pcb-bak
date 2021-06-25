@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 17)
@@ -332,7 +332,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5F68FEF1) (tstamp 60D634B8)
-    (at 105.156 113.665)
+    (at 105.664 112.903)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /60D714CD)
@@ -562,7 +562,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 60D63532)
-    (at 99.822 113.71 180)
+    (at 100.203 112.948 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /60E2364B)
@@ -688,7 +688,7 @@
   )
 
   (module Package_SO:SO-8_5.3x6.2mm_P1.27mm (layer F.Cu) (tedit 5EA5315B) (tstamp 60D6357F)
-    (at 102.545 102.997)
+    (at 102.901 102.87)
     (descr "SO, 8 Pin (https://www.ti.com/lit/ml/msop001a/msop001a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SO SO")
     (path /60D83E7A)
@@ -798,7 +798,7 @@
   )
 
   (module digikey-footprints:TQFP-32_7x7mm (layer F.Cu) (tedit 5D28AA5E) (tstamp 60D635D4)
-    (at 79.597 109.737)
+    (at 80.137 109.728)
     (descr http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf)
     (path /60D7A831)
     (attr smd)
@@ -979,5 +979,10 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 107.95 119.126) (end 107.95 94.361) (layer Edge.Cuts) (width 0.05) (tstamp 60D6B960))
+  (gr_line (start 66.802 119.126) (end 107.95 119.126) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 66.802 94.361) (end 66.802 119.126) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 107.95 94.361) (end 66.802 94.361) (layer Edge.Cuts) (width 0.05))
 
 )
