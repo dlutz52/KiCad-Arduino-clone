@@ -138,4 +138,26 @@ F 3 "https://www.farnell.com/datasheets/74348.pdf" H 4895 5260 50  0001 C CNN
 	1    3450 5175
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 60D86F93
+P 1000 2875
+F 0 "Y?" H 1000 3143 50  0000 C CNN
+F 1 "Crystal" H 1000 3052 50  0000 C CNN
+F 2 "" H 1000 2875 50  0001 C CNN
+F 3 "~" H 1000 2875 50  0001 C CNN
+	1    1000 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 60D87842
+P 4350 5150
+F 0 "Y?" H 4350 5418 50  0000 C CNN
+F 1 "Crystal" H 4350 5327 50  0000 C CNN
+F 2 "" H 4350 5150 50  0001 C CNN
+F 3 "~" H 4350 5150 50  0001 C CNN
+	1    4350 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
