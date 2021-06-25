@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 17)
@@ -184,7 +184,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60D63472)
-    (at 68.961 98.933)
+    (at 68.961 100.076)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /60D6C031)
@@ -748,7 +748,7 @@
     (tags "SMD SMT crystal hand-soldering")
     (path /60D87842)
     (attr smd)
-    (fp_text reference Y2 (at -0.127 -2.286) (layer F.SilkS)
+    (fp_text reference Y2 (at -0.127 -2.413) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value "Crystal 16MHz" (at 0 2.8) (layer F.Fab)
@@ -980,6 +980,10 @@
     )
   )
 
+  (gr_circle (center 105.9688 96.1136) (end 107.2188 96.1136) (layer Edge.Cuts) (width 0.05) (tstamp 60D6C1F9))
+  (gr_circle (center 105.9688 117.1448) (end 107.2188 117.1448) (layer Edge.Cuts) (width 0.05) (tstamp 60D6C1F7))
+  (gr_circle (center 68.6816 117.1956) (end 69.9316 117.1956) (layer Edge.Cuts) (width 0.05) (tstamp 60D6C1F5))
+  (gr_circle (center 68.6816 96.1136) (end 69.9316 96.1136) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 66.802 94.742) (end 66.802 118.745) (layer Edge.Cuts) (width 0.05) (tstamp 60D6BC12))
   (gr_line (start 107.569 94.361) (end 67.183 94.361) (layer Edge.Cuts) (width 0.05) (tstamp 60D6BC11))
   (gr_line (start 107.95 118.745) (end 107.95 94.742) (layer Edge.Cuts) (width 0.05) (tstamp 60D6BC10))
