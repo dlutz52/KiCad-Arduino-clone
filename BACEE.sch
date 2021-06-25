@@ -127,4 +127,15 @@ F 12 "Active" H 2150 4425 60  0001 L CNN "Status"
 	1    1950 3225
 	1    0    0    -1  
 $EndComp
+$Comp
+L DTL:DS1337_8Pin U??
+U 1 1 60D83E7A
+P 3450 5175
+F 0 "U??" H 3445 5761 50  0000 C CNN
+F 1 "DS1337_8Pin" H 3445 5670 50  0000 C CNN
+F 2 "" H 4895 5260 50  0000 C CNN
+F 3 "https://www.farnell.com/datasheets/74348.pdf" H 4895 5260 50  0001 C CNN
+	1    3450 5175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
